@@ -1,7 +1,8 @@
-import { IDataSource } from './idatasource.service';
+import { Injectable } from '@angular/core';
 
-export class MongoDataSource implements IDataSource {
-    public getAssets() : any[] {
-        return [];
+@Injectable()
+export class MongoDataSource {
+    getAssets(callback: (documents: any[]) => void) {
+        callback([]);
     };
 }
