@@ -5,6 +5,7 @@ import { HeaderComponent } from './header.component';
 import { GridComponent } from './grid.component';
 import { NavigationComponent } from './navigation.component';
 import { BrandComponent } from './brand.component';
+import { EntryComponent } from './entry.component';
 
 @NgModule({
     imports:      [ 
@@ -15,7 +16,8 @@ import { BrandComponent } from './brand.component';
         HeaderComponent,
         GridComponent,
         NavigationComponent,
-        BrandComponent
+        BrandComponent,
+        EntryComponent
     ],
     bootstrap: [ AppComponent ]
 })

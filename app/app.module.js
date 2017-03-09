@@ -13,6 +13,7 @@ var header_component_1 = require("./header.component");
 var grid_component_1 = require("./grid.component");
 var navigation_component_1 = require("./navigation.component");
 var brand_component_1 = require("./brand.component");
+var entry_component_1 = require("./entry.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -28,7 +29,8 @@ AppModule = __decorate([
             header_component_1.HeaderComponent,
             grid_component_1.GridComponent,
             navigation_component_1.NavigationComponent,
-            brand_component_1.BrandComponent
+            brand_component_1.BrandComponent,
+            entry_component_1.EntryComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })
